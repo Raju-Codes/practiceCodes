@@ -1,1 +1,1 @@
-# practiceCodes
+Practice repo setup
