@@ -1,1 +1,1 @@
-Practice repo setup
+Hello from git to local pc
