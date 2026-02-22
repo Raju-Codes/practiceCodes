@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms in HTML</title>
+</head>
+<body>
+  <h2>Forms in HTML</h2>
+  <form method="post" action="">
+    <label for="firstName">First Name:</label><input id="firstName" maxlength="20" placeholder="Enter Your First Name" minlength="3" required/>
+    <br>
+    <br>
+    <label for="lname">Last Name:</label> <input disabled id="lname" type="text" maxlength="15" placeholder="Enter your Last Name"/>
+      <br>
+      <br>
+    <label for="age">Age :</label> <input id="age" type="number" min="1" max="100" placeholder="Enter your Age"/>
+      <br>
+      <br>
+      <label for="email">Email :</label>
+      <input id="email" type="email" placeholder="Email"/>
+      <br>
+      <br>
+      <label for="">Password :</label>
+      <input type="password" placeholder="Password"/>
+
+      <label for="">DOB :</label>
+      <input type="date" />
+
+      <br><br>
+      <label for="">Gender :</label>
+      <br>
+      <br>
+      <input type="radio" name="gender" id="male"><label for="male">Male</label>
+      <input type="radio" name="gender" id="female"><label for="female">Female</label>
+      <input type="radio" name="gender" id="others"><label for="others">Other</label>
+      <br><br>
+      <label for="">Shirt Size :</label>
+      <br>
+      <br>
+      <input type="radio" name="gender" id="small"><label for="small">Small</label>
+      <input type="radio" name="gender" id="medium"><label for="medium">Medium</label>
+      <input type="radio" name="gender" id="large"><label for="large">Large</label>
+
+      <br>
+      <br>
+      <label for="">Hobbies :</label>
+      <br><br>
+      <input type="checkbox" id ="football"><label for="football">FootBall</label>
+      <input type="checkbox" id ="basketball"><label for="basketball">BasketBall</label>
+      <input type="checkbox" id ="tenniesball"><label for="tenniesball">TenniesBall</label>
+
+      <br><br>
+
+      <label for="color">color :</label> <input id="color" type="color" >
+      <br><br>
+    <label for="paymentOption">Select Payment Method:</label>
+    <select name="paymnet" id="paymentOption">
+      <option value=""></option>
+      <option value="gpay">Gpay</option>
+      <option value="phonepay">PhonePay</option>
+      <option value="cash">Cash</option>
+    </select>
+    <br><br>
+    <label for="cmt">Enter the feedback: </label>
+    <br>
+    <textarea name="" id="cmt" cols="50" rows="20" placeholder="Enter the your feedback here"></textarea>
+    <br>
+    <input type="submit" >
+    <hr>
+    
+  </form>
+</body>
+</html>
