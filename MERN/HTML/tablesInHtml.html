@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables In HTML</title>
+</head>
+<body>
+<table border="">
+<!--  th is to define Table head-->
+<!--  td is to define Table Data-->
+<!--  tr is to define table row-->
+<!--  caption is used describe the table name-->
+<!--  thead, tbody, tfoot is to describe the  structure of the table-->
+<!--  colspan is used to merge selected number of column-->
+<!--  rowspan is used to merge selected number of rows-->
+  <caption>Table Caption</caption>
+  <thead>
+  <tr>
+    <th>Col1</th>
+    <th>Col2</th>
+    <th>Col3</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr>
+    <td rowspan="2">1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td rowspan="">4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td colspan="2">7</td>
+    <td>8</td>
+    <td>9</td>
+  </tr>
+  </tbody>
+  <tfoot>
+  <tr>
+    <td>foot1</td>
+    <td>foot2</td>
+    <td>foot3</td>
+  </tr>
+  </tfoot>
+</table>
+</body>
+</html>
