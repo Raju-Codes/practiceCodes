@@ -1,9 +1,37 @@
-/*Element Selector*/
-/*h2{*/
-/*    color: deepskyblue;*/
+/*!*!*Element Selector*!*!*/
+/*p {*/
+/*    text-align: justify;*/
+/*    color: blue;*/
 /*}*/
-#first {
-    background-color: lightcoral;
-    text-align: justify;
-    font-family: cursive;
+/*!*ID Selector*!*/
+/*#heading {*/
+/*    text-align: center;*/
+/*    color: darkblue;*/
+/*    background-color: lightgoldenrodyellow;*/
+/*}*/
+
+/*!*Class Selector*!*/
+/*.element {*/
+/*    color: darkred;*/
+/*}*/
+
+/*!*Nested Selectors*!*/
+/*#heading, .element, #heading, p{*/
+/*    font-family: cursive;*/
+/*    color: brown;*/
+/*}*/
+/*!*Priorities*!*/
+/*!*>> ID >> Class >> ELement selctor*!*/
+/*!*Universal Selctors*!*/
+/**{*/
+/*    margin: 10px;*/
+/*    color: purple;*/
+/*    font-family: "American Typewriter", cursive;*/
+/*    background-color: papayawhip;*/
+/*}*/
+
+/*Descendant Selector */
+
+{
+
 }
