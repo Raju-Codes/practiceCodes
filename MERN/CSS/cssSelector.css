@@ -1,37 +1,57 @@
 /*!*!*Element Selector*!*!*/
-/*p {*/
-/*    text-align: justify;*/
-/*    color: blue;*/
-/*}*/
+/*To select all the element in the html page*/
+p {
+    text-align: justify;
+    color: blue;
+}
 /*!*ID Selector*!*/
-/*#heading {*/
-/*    text-align: center;*/
-/*    color: darkblue;*/
-/*    background-color: lightgoldenrodyellow;*/
-/*}*/
+/* To Target single element or section with unique id in the HTML page*/
+#heading {
+    text-align: center;
+    color: darkblue;
+    background-color: lightgoldenrodyellow;
+}
 
 /*!*Class Selector*!*/
-/*.element {*/
-/*    color: darkred;*/
-/*}*/
+/*to Group the element */
+.element {
+    color: darkred;
+}
 
 /*!*Nested Selectors*!*/
-/*#heading, .element, #heading, p{*/
-/*    font-family: cursive;*/
-/*    color: brown;*/
-/*}*/
+#heading, .element, #heading, p{
+    font-family: cursive;
+    color: brown;
+}
+
 /*!*Priorities*!*/
 /*!*>> ID >> Class >> ELement selctor*!*/
-/*!*Universal Selctors*!*/
-/**{*/
-/*    margin: 10px;*/
-/*    color: purple;*/
-/*    font-family: "American Typewriter", cursive;*/
-/*    background-color: papayawhip;*/
-/*}*/
+
+/*!*Universal Selectors*!*/
+/* To provide the basic structure or font or color to the HTML page*/
+*{
+    margin: 10px;
+    color: purple;
+    font-family: "American Typewriter", cursive;
+    background-color: papayawhip;
+}
 
 /*Descendant Selector */
+/* To target the descendant element in the HTML page*/
 
-{
+#descsel p{
+    color: deepskyblue;
+}
 
+/*Direct Child selector*/
+/*To target the direct child of the section*/
+#dirchild > p {
+    color: blue;
+    font-weight: bold;
+    font-family: "Baloo Bhaijaan", cursive;
+    align-items: center;
+}
+
+p:hover {
+    color: burlywood;
 }
