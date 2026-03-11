@@ -3,10 +3,10 @@ main {
     /*border-radius: 5%;*/
     width: 50%;
 /*    % works on based screen size */
-/*    vw view width */
+/*    vw view width  */
 /*    vh view height */
 }
 section {
     border: 2px solid brown;
-    width: 60vh;
+    width: 99vw;
 }
