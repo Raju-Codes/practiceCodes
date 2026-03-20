@@ -1,0 +1,23 @@
+body {
+    font-size: 20px;
+    font-family: "American Typewriter", cursive;
+    text-align: justify;
+    color: #F1C8DB;
+/*    We can select color by rgb, rgba and by naming convention */
+    background-color:#E09F3E;
+
+}
+article{
+    background-color: #FFF3B0;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+    align-items: center;
+
+}
+h1{
+    background-color:#335C67;
+    color:white;
+    border-radius: 15px;
+    text-align: center;
+}
