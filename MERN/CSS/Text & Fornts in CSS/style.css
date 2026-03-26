@@ -1,3 +1,19 @@
 h1 {
     color: burlywood;
+    /*text-align: left; to keep text to the left*/
+/*    text-decoration: line-through; to strike the text*/
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+
+}
+p{
+    color: brown;
+    /*text-align: justify;*/
+text-indent: 400px;
+    /*letter-spacing: .1rem; space b/w each letters */
+/*    line-height: 1.5em;*/
+/*!*    to get a space between to line*!*/
+    word-spacing: 1rem;
+/*    to Space between each words*/
 }

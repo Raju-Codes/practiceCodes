@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MERN/CSS/Text &amp; Fornts in CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/CSS/Text &amp; Fornts in CSS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Raju-Codes"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Raju-Codes/practiceCodes.git",
+    "accountId": "e0e6b1e2-c10d-48e1-b76d-4ed3e58e3149"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/textFormatters.html" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -168,6 +181,7 @@
       <workItem from="1774463573022" duration="1276000" />
       <workItem from="1774464945132" duration="96000" />
       <workItem from="1774465063873" duration="273000" />
+      <workItem from="1774497162742" duration="1574000" />
     </task>
     <servers />
   </component>
