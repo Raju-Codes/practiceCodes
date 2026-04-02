@@ -1,0 +1,8 @@
+* {
+    border: 1px solid green;
+    margin:0;
+    padding:0;
+}
+p {
+    /*display:block; items are displayed in block scope*/
+}
