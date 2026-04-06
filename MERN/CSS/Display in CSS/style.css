@@ -1,8 +1,18 @@
 * {
-    border: 1px solid green;
+    border: 1px solid white;
     margin:0;
     padding:0;
 }
-p {
-    /*display:block; items are displayed in block scope*/
+ul>li>a{
+    text-decoration:  none;
+    color:green;
+}
+ul>li {
+    display: inline;
+}
+ul{
+    align-content: center;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 30px;
 }
