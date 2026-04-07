@@ -5,14 +5,17 @@
 }
 ul>li>a{
     text-decoration:  none;
-    color:green;
 }
-ul>li {
+li {
     display: inline;
 }
 ul{
     align-content: center;
-    background-color: lightgoldenrodyellow;
+    background-color: saddlebrown;
     text-align: center;
-    padding: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+li>a:hover{
+    color: white;
 }
