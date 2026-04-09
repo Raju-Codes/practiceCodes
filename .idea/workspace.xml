@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="" />
+    <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MERN/CSS/9. Overflow, float and clear in CSS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MERN/CSS/9. Overflow, float and clear in CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MERN/CSS/Positions in CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/CSS/8. Positions in CSS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MERN/CSS/Positions in CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/CSS/8. Positions in CSS/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +99,7 @@
       <recent name="$PROJECT_DIR$/CSS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MERN/CSS" />
       <recent name="$PROJECT_DIR$/HTML" />
       <recent name="$PROJECT_DIR$/image" />
     </key>
@@ -183,6 +190,8 @@
       <workItem from="1775147870452" duration="883000" />
       <workItem from="1775500361561" duration="1074000" />
       <workItem from="1775529298084" duration="2186000" />
+      <workItem from="1775623481069" duration="502000" />
+      <workItem from="1775705367849" duration="2623000" />
     </task>
     <servers />
   </component>

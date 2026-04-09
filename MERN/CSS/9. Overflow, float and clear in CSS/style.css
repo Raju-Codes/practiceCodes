@@ -1,0 +1,35 @@
+.container {
+    /*width: 400px;*/
+    /*height: 400px;*/
+    /*border: 1px solid black;*/
+    /*!*overflow: hidden; *! it hides all the content which are not under dimensions */
+    /*!*overflow: auto;*! it automatically adujust required scroll*/
+    /*!*overflow: scroll;*! scroll will be given horizantally and vertically;*/
+    /*overflow:visible; default value;*/
+text-align: justify;
+}
+.subcontainer {
+    /*height: 40vh;*/
+    overflow: auto;
+}
+img {
+    margin: 1em;
+}
+.img1 {
+    float: right;
+
+}
+.img2 {
+    float: left;
+}
+
+.img2 {
+    clear: right;
+}
+
+/*.p1 {*/
+/*    clear:left;*/
+/*}*/
+/*.p2 {*/
+/*    clear:left;*/
+/*}*/
