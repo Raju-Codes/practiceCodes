@@ -114,6 +114,11 @@
     <configuration name="textFormatters.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practiceCodes/HTML/textFormatters.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.textFormatters.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -195,6 +200,7 @@
       <workItem from="1775793797023" duration="978000" />
       <workItem from="1775794791606" duration="42000" />
       <workItem from="1775842449475" duration="1458000" />
+      <workItem from="1776275281845" duration="1334000" />
     </task>
     <servers />
   </component>
