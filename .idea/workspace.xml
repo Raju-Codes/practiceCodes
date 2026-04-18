@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MERN/CSS/10. flexbox in CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/CSS/10. flexbox in CSS/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MERN/CSS/10. flexbox in CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/CSS/10. flexbox in CSS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,6 +202,9 @@
       <workItem from="1775794791606" duration="42000" />
       <workItem from="1775842449475" duration="1458000" />
       <workItem from="1776275281845" duration="1334000" />
+      <workItem from="1776362091185" duration="98000" />
+      <workItem from="1776362216420" duration="1335000" />
+      <workItem from="1776537766011" duration="226000" />
     </task>
     <servers />
   </component>
