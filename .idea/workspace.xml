@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MERN/CSS/10. flexbox in CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/CSS/10. flexbox in CSS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MERN/CSS/10. flexbox in CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/CSS/10. flexbox in CSS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +204,8 @@
       <workItem from="1776275281845" duration="1334000" />
       <workItem from="1776362091185" duration="98000" />
       <workItem from="1776362216420" duration="1335000" />
-      <workItem from="1776537766011" duration="226000" />
+      <workItem from="1776537766011" duration="1831000" />
+      <workItem from="1776708731976" duration="19000" />
     </task>
     <servers />
   </component>
