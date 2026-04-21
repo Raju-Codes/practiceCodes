@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/images/Gemini_Generated_Image_ulc8rqulc8rqulc8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MERN/BELLA VISTA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MERN/BELLA VISTA/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +205,7 @@
       <workItem from="1776362216420" duration="1335000" />
       <workItem from="1776537766011" duration="1831000" />
       <workItem from="1776708731976" duration="2362000" />
-      <workItem from="1776788016701" duration="3664000" />
+      <workItem from="1776788016701" duration="4270000" />
     </task>
     <servers />
   </component>
