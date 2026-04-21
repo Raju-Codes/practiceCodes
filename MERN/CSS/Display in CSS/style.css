@@ -1,0 +1,21 @@
+* {
+    border: 1px solid white;
+    margin:0;
+    padding:0;
+}
+ul>li>a{
+    text-decoration:  none;
+}
+li {
+    display: inline;
+}
+ul{
+    align-content: center;
+    background-color: saddlebrown;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+li>a:hover{
+    color: white;
+}

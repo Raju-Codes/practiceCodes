@@ -1,0 +1,37 @@
+.container {
+    background-color: burlywood;
+    height: 500px;
+    width: 500px;
+    margin: 100px;
+    position: relative;
+}
+.box {
+    height: 100px;
+    width: 100px;
+}
+.sta{
+    position: static;
+    background-color: yellow;
+}
+.rel{
+    position: relative;
+    background-color: blue;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+.abs{
+    background-color: green;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+.fix {
+    background-color: brown;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.sti {
+    background-color: purple;
+}
