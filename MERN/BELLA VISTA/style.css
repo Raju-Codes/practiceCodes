@@ -54,20 +54,17 @@ font-family: 'cursive', sans-serif;
     align-items: center;
     color: white;
 }
-
 .hero h2 {
     font-size: 3rem;
     margin: 1rem;
     font-weight: 300;
     letter-spacing: 2px;
 }
-
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     max-width: 600px;
 }
-
 .hero button {
     display: flex;
     gap: 1rem;
