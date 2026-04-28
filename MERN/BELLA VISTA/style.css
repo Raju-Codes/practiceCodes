@@ -6,7 +6,7 @@
 body {
 font-family: 'cursive', sans-serif;
     line-height: 1.5;
-    color:darkgrey;
+    color:white;
 }
 .container {
     max-width: 1200px;
@@ -137,7 +137,46 @@ font-family: 'cursive', sans-serif;
     border-radius: 8px;
     box-shadow: 0 2px 10px darkolivegreen;
 }
+.price{
+    font-size: 1.2rem;
+    color: darkred;
+}
 .menu-item:hover{
     transform: translatey(3px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about{
+    padding: 3rem 0;
+    background-color: white;
+}
+.about-content{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+.container h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: darkolivegreen;
+
+}
+.about-text h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: darkolivegreen;
+}
+.about-content p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: grey;
+}
+.about-img img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.5);
 }
