@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MERN/Laundry service/Laundry service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MERN/Laundry service/images/Screenshot 2026-04-29 at 7.50.08 AM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MERN/Laundry service/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MERN/Laundry service/Laundry service.html" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/Laundry service/Laundry service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MERN/Laundry service/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/Laundry service/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +217,8 @@
       <workItem from="1777213958219" duration="190000" />
       <workItem from="1777340952038" duration="3309000" />
       <workItem from="1777396945967" duration="3189000" />
-      <workItem from="1777428801965" duration="2153000" />
+      <workItem from="1777428801965" duration="2839000" />
+      <workItem from="1777567812490" duration="467000" />
     </task>
     <servers />
   </component>
