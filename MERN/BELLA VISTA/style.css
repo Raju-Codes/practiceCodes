@@ -180,3 +180,47 @@ font-family: 'cursive', sans-serif;
     border-radius: 10px;
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.5);
 }
+.contact {
+    padding: 5rem;
+    background-color: #f8f9fa;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    color: dimgrey;
+    gap: 3rem;
+}
+.contact-info h3, .contact-form h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: darkolivegreen;
+}
+.contact-item {
+    margin-bottom: 1rem;
+}
+.contact-item strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: darkolivegreen;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+.form-group textarea,.form-group input,.form-group select {
+width: 100%;
+    padding: 0.75rem;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-group textarea:focus,.form-group input:focus,.form-group select:focus {
+    outline: none;
+    border-color: darkolivegreen;
+}
+
+
