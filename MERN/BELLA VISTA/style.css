@@ -222,5 +222,13 @@ width: 100%;
     outline: none;
     border-color: darkolivegreen;
 }
-
+:root {
+    --primary-color: red;
+    --secondary-color: grey;
+    --accent-color: darkslateblue;
+    --light-bg: white;
+    --dark-text:#333;
+    --light-text:#666;
+    --border-radius: 8px;
+}
 
