@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MERN/BELLA VISTA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MERN/BELLA VISTA/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +222,9 @@
       <workItem from="1777745564453" duration="2274000" />
       <workItem from="1777748314021" duration="164000" />
       <workItem from="1777796279558" duration="3884000" />
-      <workItem from="1778177761019" duration="699000" />
+      <workItem from="1778177761019" duration="1218000" />
+      <workItem from="1778350711448" duration="900000" />
+      <workItem from="1778521109546" duration="1239000" />
     </task>
     <servers />
   </component>

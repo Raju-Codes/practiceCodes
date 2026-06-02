@@ -86,7 +86,7 @@ font-family: 'cursive', sans-serif;
 .btn-primary:hover {
     background-color: saddlebrown;
     color: white;
-    transform: translateY(2px);
+    transform: translatey(2px);
 }
 .btn-secondary{
     color: white;
@@ -223,12 +223,21 @@ width: 100%;
     border-color: darkolivegreen;
 }
 :root {
-    --primary-color: red;
+    --primary-color: skyblue;
     --secondary-color: grey;
-    --accent-color: darkslateblue;
-    --light-bg: white;
+    --accent-color: lightblue;
+    --textColor: white;
     --dark-text:#333;
     --light-text:#666;
     --border-radius: 8px;
+    --shadow: 5px 4px 5px 5px rgba(0, 0, 0, 100);
+    --transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--textColor);
+    transition: var(--transition);
+    box-shadow: var(--shadow);
 }
 
