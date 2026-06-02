@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MERN/BELLA VISTA/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -96,10 +97,11 @@
       <recent name="$PROJECT_DIR$/CSS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MERN/Laundry service/images" />
+      <recent name="$PROJECT_DIR$/MERN" />
       <recent name="$PROJECT_DIR$/MERN/BELLA VISTA/images" />
       <recent name="$PROJECT_DIR$/MERN/CSS" />
       <recent name="$PROJECT_DIR$/HTML" />
-      <recent name="$PROJECT_DIR$/image" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.textFormatters.html">
@@ -205,7 +207,24 @@
       <workItem from="1776362216420" duration="1335000" />
       <workItem from="1776537766011" duration="1831000" />
       <workItem from="1776708731976" duration="2362000" />
-      <workItem from="1776788016701" duration="4270000" />
+      <workItem from="1776788016701" duration="4718000" />
+      <workItem from="1776879372478" duration="2035000" />
+      <workItem from="1776881452451" duration="2089000" />
+      <workItem from="1776954249674" duration="1735000" />
+      <workItem from="1777136608959" duration="1939000" />
+      <workItem from="1777213759636" duration="181000" />
+      <workItem from="1777213958219" duration="190000" />
+      <workItem from="1777340952038" duration="3309000" />
+      <workItem from="1777396945967" duration="3189000" />
+      <workItem from="1777428801965" duration="2839000" />
+      <workItem from="1777567812490" duration="1007000" />
+      <workItem from="1777654073566" duration="1135000" />
+      <workItem from="1777745564453" duration="2274000" />
+      <workItem from="1777748314021" duration="164000" />
+      <workItem from="1777796279558" duration="3884000" />
+      <workItem from="1778177761019" duration="1218000" />
+      <workItem from="1778350711448" duration="900000" />
+      <workItem from="1778521109546" duration="1239000" />
     </task>
     <servers />
   </component>

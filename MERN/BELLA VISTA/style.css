@@ -6,7 +6,7 @@
 body {
 font-family: 'cursive', sans-serif;
     line-height: 1.5;
-    color:darkgrey;
+    color:white;
 }
 .container {
     max-width: 1200px;
@@ -14,6 +14,8 @@ font-family: 'cursive', sans-serif;
     padding: 0 20px;
 }
 .header {
+    position: fixed;
+    top: 0;
     background-color:#6F7714;
     color: white;
     padding: 1rem 0;
@@ -44,19 +46,198 @@ font-family: 'cursive', sans-serif;
 }
 .hero {
     height: 100vh;
-    background: url('images/Gemini_Generated_Image_ulc8rqulc8rqulc8.png') center/cover;
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     color: white;
+}
+.hero h2 {
+    font-size: 3rem;
+    margin: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
+.hero button {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
 
 }
-.hero a {
-    color: white;
-    background-color: saddlebrown;
+.btn {
     text-decoration: none;
     border-radius: 5px;
-    padding: 1rem 1rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    transition: all ease 0.3s;
+    display:inline-block;
+}
+.btn-primary{
+    background-color: brown;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: saddlebrown;
+    color: white;
+    transform: translatey(2px);
+}
+.btn-secondary{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+}
+.btn-secondary:hover {
+    background-color: whitesmoke;
+    color: darkslateblue;
+}
+.menu{
+    padding: 5rem 0rem;
+    background-color: lightgray;
+    color: black;
+}
+.section-tittle {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: darkolivegreen;
+}
+.section-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    color: grey;
+}
+.menu-catogory{
+    margin: 3rem;
+}
+.menu-catogory h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid darkred;
+    padding-bottom: 0.5rem;
+}
+.menu-items{
+    display:grid;
+    gap: 1.5rem;
+}
+.menu-item{
+    display:flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px darkolivegreen;
+}
+.price{
+    font-size: 1.2rem;
+    color: darkred;
+}
+.menu-item:hover{
+    transform: translatey(3px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about{
+    padding: 3rem 0;
+    background-color: white;
+}
+.about-content{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+.container h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: darkolivegreen;
 
 }
+.about-text h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: darkolivegreen;
+}
+.about-content p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: grey;
+}
+.about-img img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.contact {
+    padding: 5rem;
+    background-color: #f8f9fa;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    color: dimgrey;
+    gap: 3rem;
+}
+.contact-info h3, .contact-form h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: darkolivegreen;
+}
+.contact-item {
+    margin-bottom: 1rem;
+}
+.contact-item strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: darkolivegreen;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+.form-group textarea,.form-group input,.form-group select {
+width: 100%;
+    padding: 0.75rem;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-group textarea:focus,.form-group input:focus,.form-group select:focus {
+    outline: none;
+    border-color: darkolivegreen;
+}
+:root {
+    --primary-color: skyblue;
+    --secondary-color: grey;
+    --accent-color: lightblue;
+    --textColor: white;
+    --dark-text:#333;
+    --light-text:#666;
+    --border-radius: 8px;
+    --shadow: 5px 4px 5px 5px rgba(0, 0, 0, 100);
+    --transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--textColor);
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+}
+
