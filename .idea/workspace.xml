@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MERN/JavaScript/1_Intro_to_JS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/practiceCodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practiceCodes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MERN/BELLA VISTA/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MERN/BELLA VISTA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MERN/BELLA VISTA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYTHON/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYTHON/introPython.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -58,40 +65,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.HeadTag.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.textFormatters.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.introPython.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variable.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;rajuWorkingDic&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raju/WebstormProjects/practiceCodes&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Hello.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.1_Intro_to_JS.html.executor": "Run",
+    "JavaScript Debug.HeadTag.html.executor": "Run",
+    "JavaScript Debug.textFormatters.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.PYTHON.executor": "Run",
+    "Python.Sum.executor": "Run",
+    "Python.Test.executor": "Run",
+    "Python.introPython.executor": "Run",
+    "Python.variable.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "rajuWorkingDic",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/raju/WebstormProjects/practiceCodes",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.idesettings.emmet.xml",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CSS" />
@@ -104,28 +116,10 @@
       <recent name="$PROJECT_DIR$/HTML" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.textFormatters.html">
-    <configuration name="Hello" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-25.0.2/Contents/Home" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Hello" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="textFormatters.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practiceCodes/HTML/textFormatters.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.textFormatters.html" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-WS-261.22158.274" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
       </set>
     </attachedChunks>
   </component>
@@ -225,6 +219,16 @@
       <workItem from="1778177761019" duration="1218000" />
       <workItem from="1778350711448" duration="900000" />
       <workItem from="1778521109546" duration="1239000" />
+      <workItem from="1780423715382" duration="1156000" />
+      <workItem from="1780425140205" duration="1240000" />
+      <workItem from="1780426511474" duration="85000" />
+      <workItem from="1780426636015" duration="1000" />
+      <workItem from="1780426821958" duration="646000" />
+      <workItem from="1780457974415" duration="730000" />
+      <workItem from="1780458931286" duration="83000" />
+      <workItem from="1780459025212" duration="23000" />
+      <workItem from="1780459064725" duration="871000" />
+      <workItem from="1780511927672" duration="3460000" />
     </task>
     <servers />
   </component>
@@ -248,5 +252,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/style_css$Sum.coverage" NAME="Sum Coverage Results" MODIFIED="1780458687757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
+    <SUITE FILE_PATH="coverage/style_css$PYTHON.coverage" NAME="PYTHON Coverage Results" MODIFIED="1780458578018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
+    <SUITE FILE_PATH="coverage/style_css$Test.coverage" NAME="Test Coverage Results" MODIFIED="1780458595973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
   </component>
 </project>
