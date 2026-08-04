@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PYTHON/Basics/listInPython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/Basics/tupleInPython.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +78,7 @@
     "Python.introPython.executor": "Run",
     "Python.listInPython.executor": "Run",
     "Python.stringOperations.executor": "Run",
+    "Python.tupleInPython.executor": "Run",
     "Python.variable.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -240,7 +241,8 @@
       <workItem from="1785259423068" duration="42000" />
       <workItem from="1785349161274" duration="1248000" />
       <workItem from="1785432906819" duration="2194000" />
-      <workItem from="1785776289333" duration="1648000" />
+      <workItem from="1785776289333" duration="2162000" />
+      <workItem from="1785865448349" duration="1033000" />
     </task>
     <servers />
   </component>
@@ -273,6 +275,7 @@
     <SUITE FILE_PATH="coverage/style_css$Initializer.coverage" NAME="Initializer Coverage Results" MODIFIED="1784655485336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$stringOperations.coverage" NAME="stringOperations Coverage Results" MODIFIED="1785434689417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$listInPython.coverage" NAME="listInPython Coverage Results" MODIFIED="1785777923545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$tupleInPython.coverage" NAME="tupleInPython Coverage Results" MODIFIED="1785865649837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
     <SUITE FILE_PATH="coverage/style_css$PYTHON.coverage" NAME="PYTHON Coverage Results" MODIFIED="1780458578018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
     <SUITE FILE_PATH="coverage/style_css$Attribute.coverage" NAME="Attribute Coverage Results" MODIFIED="1784654524813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$Loops.coverage" NAME="Loops Coverage Results" MODIFIED="1785259090377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
