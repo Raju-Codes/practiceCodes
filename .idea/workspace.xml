@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PYTHON/Basics/tupleInPython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machineLearning/dataProcessingInPython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machineLearning/regexInPython.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +76,10 @@
     "Python.Sum.executor": "Run",
     "Python.Test.executor": "Run",
     "Python.classVariable.executor": "Run",
+    "Python.dataProcessingInPython.executor": "Run",
     "Python.introPython.executor": "Run",
     "Python.listInPython.executor": "Run",
+    "Python.regexInPython.executor": "Run",
     "Python.stringOperations.executor": "Run",
     "Python.tupleInPython.executor": "Run",
     "Python.variable.executor": "Run",
@@ -95,13 +98,15 @@
     "last_opened_file_path": "/Users/raju/WebstormProjects/practiceCodes",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.idesettings.emmet.xml",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -111,11 +116,11 @@
       <recent name="$PROJECT_DIR$/CSS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/MERN/Laundry service/images" />
       <recent name="$PROJECT_DIR$/MERN" />
       <recent name="$PROJECT_DIR$/MERN/BELLA VISTA/images" />
       <recent name="$PROJECT_DIR$/MERN/CSS" />
-      <recent name="$PROJECT_DIR$/HTML" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -242,7 +247,9 @@
       <workItem from="1785349161274" duration="1248000" />
       <workItem from="1785432906819" duration="2194000" />
       <workItem from="1785776289333" duration="2162000" />
-      <workItem from="1785865448349" duration="1033000" />
+      <workItem from="1785865448349" duration="1057000" />
+      <workItem from="1785953489454" duration="1255000" />
+      <workItem from="1786287616479" duration="5170000" />
     </task>
     <servers />
   </component>
@@ -268,16 +275,18 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/style_css$Sum.coverage" NAME="Sum Coverage Results" MODIFIED="1780458687757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
     <SUITE FILE_PATH="coverage/style_css$classVariable.coverage" NAME="classVariable Coverage Results" MODIFIED="1784824478928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/style_css$Test.coverage" NAME="Test Coverage Results" MODIFIED="1780458595973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
     <SUITE FILE_PATH="coverage/style_css$String.coverage" NAME="String Coverage Results" MODIFIED="1785171662378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$listInPython.coverage" NAME="listInPython Coverage Results" MODIFIED="1785777923545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
+    <SUITE FILE_PATH="coverage/style_css$Attribute.coverage" NAME="Attribute Coverage Results" MODIFIED="1784654524813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
+    <SUITE FILE_PATH="coverage/style_css$Sum.coverage" NAME="Sum Coverage Results" MODIFIED="1780458687757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
     <SUITE FILE_PATH="coverage/style_css$Initializer.coverage" NAME="Initializer Coverage Results" MODIFIED="1784655485336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$stringOperations.coverage" NAME="stringOperations Coverage Results" MODIFIED="1785434689417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
-    <SUITE FILE_PATH="coverage/bash_completion_sh$listInPython.coverage" NAME="listInPython Coverage Results" MODIFIED="1785777923545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$tupleInPython.coverage" NAME="tupleInPython Coverage Results" MODIFIED="1785865649837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$dataProcessingInPython.coverage" NAME="dataProcessingInPython Coverage Results" MODIFIED="1786301775647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/style_css$PYTHON.coverage" NAME="PYTHON Coverage Results" MODIFIED="1780458578018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
-    <SUITE FILE_PATH="coverage/style_css$Attribute.coverage" NAME="Attribute Coverage Results" MODIFIED="1784654524813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$regexInPython.coverage" NAME="regexInPython Coverage Results" MODIFIED="1786293121821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$Loops.coverage" NAME="Loops Coverage Results" MODIFIED="1785259090377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
   </component>
 </project>
