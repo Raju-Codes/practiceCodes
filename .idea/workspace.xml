@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/machineLearning/dataPreProcessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machineLearning/operationInNumpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machineLearning/operationInPandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machineLearning/candle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machineLearning/mathplotlib.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machineLearning/operationInPandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/operationInPandas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,60 +61,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.1_Intro_to_JS.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.HeadTag.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.textFormatters.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Attribute.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Initializer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Loops.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PYTHON.executor&quot;: &quot;Run&quot;,
-    &quot;Python.String.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classVariable.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dataPreProcessing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dataProcessingInPython.executor&quot;: &quot;Run&quot;,
-    &quot;Python.introPython.executor&quot;: &quot;Run&quot;,
-    &quot;Python.listInPython.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operationInNumpy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operationInPandas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.regexInPython.executor&quot;: &quot;Run&quot;,
-    &quot;Python.stringOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tupleInPython.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variable.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;rajuWorkingDic&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raju/WebstormProjects/practiceCodes&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Hello.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.1_Intro_to_JS.html.executor": "Run",
+    "JavaScript Debug.HeadTag.html.executor": "Run",
+    "JavaScript Debug.textFormatters.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Attribute.executor": "Run",
+    "Python.Initializer.executor": "Run",
+    "Python.Loops.executor": "Run",
+    "Python.PYTHON.executor": "Run",
+    "Python.String.executor": "Run",
+    "Python.Sum.executor": "Run",
+    "Python.Test.executor": "Run",
+    "Python.candle.executor": "Run",
+    "Python.classVariable.executor": "Run",
+    "Python.dataPreProcessing.executor": "Run",
+    "Python.dataProcessingInPython.executor": "Run",
+    "Python.introPython.executor": "Run",
+    "Python.listInPython.executor": "Run",
+    "Python.mathplotlib.executor": "Run",
+    "Python.operationInNumpy.executor": "Run",
+    "Python.operationInPandas.executor": "Run",
+    "Python.regexInPython.executor": "Run",
+    "Python.stringOperations.executor": "Run",
+    "Python.tupleInPython.executor": "Run",
+    "Python.variable.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "rajuWorkingDic",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/raju/WebstormProjects/practiceCodes",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CSS" />
@@ -258,6 +260,7 @@
       <workItem from="1786904824837" duration="1163000" />
       <workItem from="1787075287913" duration="804000" />
       <workItem from="1787162587070" duration="1474000" />
+      <workItem from="1788112759150" duration="1882000" />
     </task>
     <servers />
   </component>
@@ -286,14 +289,16 @@
     <SUITE FILE_PATH="coverage/style_css$classVariable.coverage" NAME="classVariable Coverage Results" MODIFIED="1784824478928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/style_css$Test.coverage" NAME="Test Coverage Results" MODIFIED="1780458595973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
     <SUITE FILE_PATH="coverage/style_css$String.coverage" NAME="String Coverage Results" MODIFIED="1785171662378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$mathplotlib.coverage" NAME="mathplotlib Coverage Results" MODIFIED="1788113726304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$listInPython.coverage" NAME="listInPython Coverage Results" MODIFIED="1785777923545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
     <SUITE FILE_PATH="coverage/style_css$Attribute.coverage" NAME="Attribute Coverage Results" MODIFIED="1784654524813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$dataPreProcessing.coverage" NAME="dataPreProcessing Coverage Results" MODIFIED="1786381477686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
-    <SUITE FILE_PATH="coverage/bash_completion_sh$operationInPandas.coverage" NAME="operationInPandas Coverage Results" MODIFIED="1787163891717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$operationInPandas.coverage" NAME="operationInPandas Coverage Results" MODIFIED="1788112861653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$operationInNumpy.coverage" NAME="operationInNumpy Coverage Results" MODIFIED="1786905583433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/style_css$Sum.coverage" NAME="Sum Coverage Results" MODIFIED="1780458687757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
     <SUITE FILE_PATH="coverage/style_css$Initializer.coverage" NAME="Initializer Coverage Results" MODIFIED="1784655485336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$stringOperations.coverage" NAME="stringOperations Coverage Results" MODIFIED="1785434689417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$candle.coverage" NAME="candle Coverage Results" MODIFIED="1788113936197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$tupleInPython.coverage" NAME="tupleInPython Coverage Results" MODIFIED="1785865649837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$dataProcessingInPython.coverage" NAME="dataProcessingInPython Coverage Results" MODIFIED="1786301775647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/style_css$PYTHON.coverage" NAME="PYTHON Coverage Results" MODIFIED="1780458578018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
