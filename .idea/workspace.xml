@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/machineLearning/dataPreProcessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machineLearning/operationInNumpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machineLearning/operationInPandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA Projects/mavenHybernate/src/main/java/App/LaunchFirstApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA Projects/mavenHybernate/src/main/java/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEVPILOT/Client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/DEVPILOT/Client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEVPILOT/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/DEVPILOT/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaProgramming/.project" beforeDir="false" afterPath="$PROJECT_DIR$/javaProgramming/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machineLearning/data_Pre_Processing_R/Untitled.R" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/data_Pre_Processing_R/Untitled.R" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +79,13 @@
     &quot;Python.String.executor&quot;: &quot;Run&quot;,
     &quot;Python.Sum.executor&quot;: &quot;Run&quot;,
     &quot;Python.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.candle.executor&quot;: &quot;Run&quot;,
     &quot;Python.classVariable.executor&quot;: &quot;Run&quot;,
     &quot;Python.dataPreProcessing.executor&quot;: &quot;Run&quot;,
     &quot;Python.dataProcessingInPython.executor&quot;: &quot;Run&quot;,
     &quot;Python.introPython.executor&quot;: &quot;Run&quot;,
     &quot;Python.listInPython.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mathplotlib.executor&quot;: &quot;Run&quot;,
     &quot;Python.operationInNumpy.executor&quot;: &quot;Run&quot;,
     &quot;Python.operationInPandas.executor&quot;: &quot;Run&quot;,
     &quot;Python.regexInPython.executor&quot;: &quot;Run&quot;,
@@ -130,8 +135,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.8665.309" />
-        <option value="bundled-python-sdk-c6d794e1806d-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.309" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.8665.259" />
       </set>
     </attachedChunks>
   </component>
@@ -258,6 +262,10 @@
       <workItem from="1786904824837" duration="1163000" />
       <workItem from="1787075287913" duration="804000" />
       <workItem from="1787162587070" duration="1474000" />
+      <workItem from="1788112759150" duration="2676000" />
+      <workItem from="1788617933741" duration="205000" />
+      <workItem from="1788630108350" duration="753000" />
+      <workItem from="1789297384018" duration="648000" />
     </task>
     <servers />
   </component>
@@ -286,14 +294,16 @@
     <SUITE FILE_PATH="coverage/style_css$classVariable.coverage" NAME="classVariable Coverage Results" MODIFIED="1784824478928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/style_css$Test.coverage" NAME="Test Coverage Results" MODIFIED="1780458595973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
     <SUITE FILE_PATH="coverage/style_css$String.coverage" NAME="String Coverage Results" MODIFIED="1785171662378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$mathplotlib.coverage" NAME="mathplotlib Coverage Results" MODIFIED="1788113726304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$listInPython.coverage" NAME="listInPython Coverage Results" MODIFIED="1785777923545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
     <SUITE FILE_PATH="coverage/style_css$Attribute.coverage" NAME="Attribute Coverage Results" MODIFIED="1784654524813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$dataPreProcessing.coverage" NAME="dataPreProcessing Coverage Results" MODIFIED="1786381477686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
-    <SUITE FILE_PATH="coverage/bash_completion_sh$operationInPandas.coverage" NAME="operationInPandas Coverage Results" MODIFIED="1787163891717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$operationInPandas.coverage" NAME="operationInPandas Coverage Results" MODIFIED="1788112861653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$operationInNumpy.coverage" NAME="operationInNumpy Coverage Results" MODIFIED="1786905583433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/style_css$Sum.coverage" NAME="Sum Coverage Results" MODIFIED="1780458687757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />
     <SUITE FILE_PATH="coverage/style_css$Initializer.coverage" NAME="Initializer Coverage Results" MODIFIED="1784655485336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/OOP" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$stringOperations.coverage" NAME="stringOperations Coverage Results" MODIFIED="1785434689417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
+    <SUITE FILE_PATH="coverage/bash_completion_sh$candle.coverage" NAME="candle Coverage Results" MODIFIED="1788113936197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$tupleInPython.coverage" NAME="tupleInPython Coverage Results" MODIFIED="1785865649837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Basics" />
     <SUITE FILE_PATH="coverage/bash_completion_sh$dataProcessingInPython.coverage" NAME="dataProcessingInPython Coverage Results" MODIFIED="1786301775647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
     <SUITE FILE_PATH="coverage/style_css$PYTHON.coverage" NAME="PYTHON Coverage Results" MODIFIED="1780458578018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON" />

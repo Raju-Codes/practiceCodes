@@ -5,7 +5,15 @@ s= pd.Series(["Raju","27","raju@gmail.com","Bangalore Marathalli","QHS3278GHS",1
 print(s)
 
 # to print data in rows and column format
-data = {"Name":["Rajesh", "Bob"],"Age":[23,25],"Mail" :["rajesh@gmail.com","bob@gmail.com"],"Address":["Bangalore", "Andhra Pradesh"],"GST":["TYDG123456TY","HDFT736212GG"],"sellerID":[64237,3217]}
+data = {
+    "Name":["Rajesh", "Bob"],
+    "Age":[23,25],
+    "Mail" :["rajesh@gmail.com","bob@gmail.com"],
+    "Address":["Bangalore", "Andhra Pradesh"],
+    "GST":["TYDG123456TY","HDFT736212GG"],
+    "sellerID":[64237,3217]
+}
+
 df = pd.DataFrame(data)
 print(df)
 
