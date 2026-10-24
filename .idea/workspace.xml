@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee228a26-eb10-404d-b52c-0caf9d6cc262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JAVA Projects/mavenHybernate/src/main/java/App/LaunchFirstApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA Projects/mavenHybernate/src/main/java/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEVPILOT/Client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/DEVPILOT/Client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEVPILOT/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/DEVPILOT/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaProgramming/.project" beforeDir="false" afterPath="$PROJECT_DIR$/javaProgramming/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machineLearning/data_Pre_Processing_R/Untitled.R" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/data_Pre_Processing_R/Untitled.R" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +129,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.8665.259" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.8665.309" />
+        <option value="bundled-python-sdk-c6d794e1806d-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.309" />
       </set>
     </attachedChunks>
   </component>
@@ -266,6 +261,12 @@
       <workItem from="1788617933741" duration="205000" />
       <workItem from="1788630108350" duration="753000" />
       <workItem from="1789297384018" duration="648000" />
+      <workItem from="1789499869977" duration="843000" />
+      <workItem from="1789501404896" duration="391000" />
+      <workItem from="1790406032462" duration="2000" />
+      <workItem from="1791470671786" duration="641000" />
+      <workItem from="1792343200662" duration="70000" />
+      <workItem from="1792697184500" duration="110000" />
     </task>
     <servers />
   </component>
